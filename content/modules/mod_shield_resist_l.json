@@ -1,8 +1,0 @@
-{
-  "moduleId": "mod_shield_resist_l",
-  "displayName": "盾抗模块 L",
-  "displayNameEn": "Shield Resist L",
-  "slotCategory": "DEFENSE",
-  "moduleSize": "LARGE",
-  "shieldResistPct": 18
-}

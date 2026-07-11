@@ -1,22 +1,26 @@
 # topdog_online_update
 
-设立静态网页作为游戏热更索取目标。
+GitHub 闈欐€佷粨鍙仛**瀵煎悜**锛氱湡姝ｇ儹鏇磋祫婧愬湪 Hugging Face Bucket銆?
 
-当前内容版号：**2026.7.11.v1**
+褰撳墠鍐呭鐗堝彿锛?*2026.7.12.v1**
 
-- 协议说明：[PROTOCOL.md](PROTOCOL.md)
-- 版本文件：[version.json](version.json)
-- 清单文件：[manifest.json](manifest.json)
-
-## 索取地址
-
-| 方式 | URL |
+| 鐢ㄩ€?| URL |
 |------|-----|
-| GitHub raw（客户端当前默认） | https://raw.githubusercontent.com/TopDogDevelop/topdog_online_update/main/ |
-| GitHub Pages（需仓库 Settings → Pages → main / root） | https://topdogdevelop.github.io/topdog_online_update/ |
+| HF 妗讹紙璧勬簮鏈綋锛?| https://huggingface.co/buckets/liketocode789/topdog_online_update_data |
+| 瀹㈡埛绔储鍙栧熀鍧€锛坮esolve锛?| https://huggingface.co/buckets/liketocode789/topdog_online_update_data/resolve/ |
+| 鏈粨 version 鎸囬拡 | [version.json](version.json) |
 
-## 版号规则
+## 鍗忚
 
-格式 `YYYY.M.D.vN`（例 `2026.7.11.v1` = 当日第 1 次发布）。
+1. GET {resolve}/version.json
+2. GET {resolve}/manifest.json
+3. 鎸夋竻鍗曚笅杞?content/**锛坰ha256 鏍￠獙锛?
 
-客户端与远端版号字符串全等才算同版；联机仅允许双方本地版号一致。
+鐗堝彿鏍煎紡 `YYYY.M.D.vN`锛涜仈鏈哄弻鏂规湰鍦扮増鍙烽』涓€鑷淬€?
+
+鍙戝竷锛?
+
+`powershell
+cd e:\game_dev\top_dog_unity
+.\scripts\publish_online_update.ps1 -Version 2026.7.12.v1 -Push
+`

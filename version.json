@@ -1,6 +1,6 @@
-﻿{
-    "version":  "2026.7.11.v1",
-    "publishedAt":  "2026-07-12T00:04:41+10:00",
-    "baseUrl":  "https://topdogdevelop.github.io/topdog_online_update/",
-    "notes":  "TopDog content hot-update"
+{
+  "version": "2026.7.12.v1",
+  "publishedAt": "2026-07-12T01:04:19+10:00",
+  "baseUrl": "https://huggingface.co/buckets/liketocode789/topdog_online_update_data/resolve/",
+  "notes": "TopDog content hot-update (HF bucket)"
 }

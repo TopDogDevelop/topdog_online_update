@@ -1,6 +1,0 @@
-{
-  "bridgeId": "jb_hub_to_mine",
-  "fromSystemId": "sys_hub",
-  "toSystemId": "sys_mine",
-  "garrisonTemplateId": "npc_garrison_default"
-}

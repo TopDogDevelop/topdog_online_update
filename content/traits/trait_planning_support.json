@@ -1,9 +1,0 @@
-{
-  "traitId": "trait_planning_support",
-  "displayNameZh": "策划支援",
-  "displayNameEn": "Planning Support",
-  "mechanismId": "planning_support",
-  "recruitPool": false,
-  "activeSkillPhase": "operations",
-  "presentationTags": ["ui_positive"]
-}
