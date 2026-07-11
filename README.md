@@ -1,7 +1,7 @@
 # topdog_online_update
 
 GitHub 闈欐€佷粨鍙仛**瀵煎悜**锛氱湡姝ｇ儹鏇磋祫婧愬湪 Hugging Face Bucket銆?
-褰撳墠鍐呭鐗堝彿锛?*2026.7.12.v2**
+褰撳墠鍐呭鐗堝彿锛?*2026.7.12.v3**
 
 | 鐢ㄩ€?| URL |
 |------|-----|
@@ -18,5 +18,5 @@ GitHub 闈欐€佷粨鍙仛**瀵煎悜**锛氱湡姝ｇ儹鏇磋祫婧愬湪
 鍙戝竷锛?
 `powershell
 cd e:\game_dev\top_dog_unity
-.\scripts\publish_online_update.ps1 -Version 2026.7.12.v2 -Push
+.\scripts\publish_online_update.ps1 -Version 2026.7.12.v3 -Push
 `
